@@ -6,3 +6,5 @@ Demo repository for demos.
 
 
 And so is this
+
+foo and bar
