@@ -1,0 +1,13 @@
+/vendor/
+/bin/phpunit
+/bin/pdepend
+/bin/phing
+/bin/php-parse
+/bin/phpcbf
+/bin/phpcpd
+/bin/phploc
+/bin/phpdox
+/bin/phpcs
+/bin/phpmd
+/results
+/build/*

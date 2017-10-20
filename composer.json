@@ -1,0 +1,44 @@
+{
+    "name": "root/phpfoo",
+    "authors": [
+        {
+            "name": "Vincent Elschot",
+            "email": "vincent.elschot@genj.nl"
+        }
+    ],
+
+    "scripts": {
+       "test": [
+        "bin/phpunit -c phpunit.xml"
+        ]
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "3.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8",
+        "phpmd/phpmd": "*",
+        "squizlabs/php_codesniffer": "*",
+        "sebastian/phpcpd": "*",
+        "phploc/phploc": "*",
+        "pdepend/pdepend": "*",
+        "theseer/phpdox": "*",
+        "symfony/browser-kit": "*",
+        "symfony/css-selector": "*",
+        "phing/phing": "*",
+        "escapestudios/symfony2-coding-standard":"*"
+    },
+    "config": {
+        "process-timeout": 1200,
+        "preferred-install": "source",
+        "bin-dir": "bin",
+        "component-dir": "web/admin/bundles",
+        "component-baseurl": "/admin/bundles",
+        "platform": {
+            "php": "5.5.9"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
